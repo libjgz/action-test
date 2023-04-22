@@ -1,8 +1,10 @@
 {
-  "name": "action-test",
+  "name": "@vmoz/action-test",
   "version": "0.0.1",
   "description": "test",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     "*": "./dist/index.mjs"
   },
@@ -15,12 +17,12 @@
   "author": "libjgz",
   "license": "MIT",
   "dependencies": {
-    "tsup": "^6.6.3"
+    "tsup": "^6.7.0"
   },
   "devDependencies": {
     "@jungzl/eslint-config-ts": "^0.0.5",
-    "eslint": "^8.35.0",
-    "publint": "^0.1.10",
-    "typescript": "^4.9.5"
+    "eslint": "^8.39.0",
+    "publint": "^0.1.11",
+    "typescript": "^5.0.4"
   }
 }
