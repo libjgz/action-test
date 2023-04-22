@@ -1,0 +1,28 @@
+{
+  "name": "@vmoz/action-test",
+  "version": "0.0.1",
+  "description": "test",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "*": "./dist/index.mjs"
+  },
+  "scripts": {
+    "lint:pub": "npx publint",
+    "lint:eslint": "eslint --fix --cache --quiet src/*.ts",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "libjgz",
+  "license": "MIT",
+  "dependencies": {
+    "tsup": "^6.7.0"
+  },
+  "devDependencies": {
+    "@jungzl/eslint-config-ts": "^0.0.5",
+    "eslint": "^8.39.0",
+    "publint": "^0.1.11",
+    "typescript": "^5.0.4"
+  }
+}
